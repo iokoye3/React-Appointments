@@ -3,7 +3,7 @@ import { getFirestore } from "firebase/firestore";
 import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAFTVdoXpV0BFSrO2eOaGrrM4fyK105vys",
+  apiKey: "YOUR-GOOGLE-API-KEY",
   authDomain: "scheduler-74412.firebaseapp.com",
   projectId: "scheduler-74412",
   storageBucket: "scheduler-74412.appspot.com",
