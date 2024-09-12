@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+}
+.App {
+  text-align: center;
+}
+.title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.timelist {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.timeoptions {
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+  border-radius: 10px;
+}
+.delete {
+  margin: 0 auto;
+  margin-top: 10px;
+  color: red;
+  border-style: none;
+  font-size: 16px;
+}
+.foundappt {
+  font-weight: bold;
+  margin: 10px 0 10px 0;
+}
+.edit {
+  margin-left: 10px;
+  color: red;
+  border-style: none;
+  font-size: 16px;
+}
+.schedule {
+  margin-bottom: 50px;
+}
+input[type=text] {
+  border-style: none none solid none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+input[type=text]:focus {
+  outline: none;
+}
+
